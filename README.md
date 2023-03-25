@@ -25,6 +25,8 @@ Full working backend microservices for a shopping cart - currently in developmen
 - Change PORT number in application.properties file to use your own. Ex : local URL - http://localhost:3000/ , when PORT number : 3000
 
 # Services
+```
 - product-service
 - order-service
 - inventory-service
+```
