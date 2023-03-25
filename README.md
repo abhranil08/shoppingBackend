@@ -3,11 +3,12 @@ Full working backend microservices for a shopping cart - currently in developmen
 
 
 # Technologies used 🛠️
-
-- [Java]
+```
+- [Java : Spring/SpringBoot]
 - [Microservices]
 - [MongoDB] 
 - [MySQL]
+```
 
 # Clone and Use 📋
 
