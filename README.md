@@ -26,7 +26,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 
 # Services
 ```
-- product-service
-- order-service
-- inventory-service
+- product-service : create and view products
+- order-service : order products
+- inventory-service : for product management
 ```
