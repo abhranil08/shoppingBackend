@@ -29,4 +29,5 @@ Full working backend microservices for a shopping cart - currently in developmen
 - product-service : create and view products
 - order-service : order products
 - inventory-service : for product management
+- discovery-service : maintaining server registry
 ```
