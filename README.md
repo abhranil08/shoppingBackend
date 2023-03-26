@@ -30,4 +30,12 @@ Full working backend microservices for a shopping cart - currently in developmen
 - order-service : order products
 - inventory-service : for product management
 - discovery-service : maintaining server registry
+- api-gateway
+```
+
+# Features
+```
+1. Inter-service communication.
+2. Service Discovery using Netflix Eureka
+3. Api gateway
 ```
