@@ -16,7 +16,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - Clone the repository into your local system using below command:
   ```bash
-   git clone https://github.com/abhranil08/REST-API-CRUD-App.git
+   git clone https://github.com/abhranil08/shoppingBackend.git
   ```
   This will clone the whole repository in your system.
   
