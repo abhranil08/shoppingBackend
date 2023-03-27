@@ -32,6 +32,8 @@ public class ProductController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getAllProducts(){
+         System.out.println("hii!");
+        
         return productservice.getAllProducts();
     }
 
