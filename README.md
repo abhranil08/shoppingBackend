@@ -36,6 +36,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 # Features
 ```
 1. Inter-service communication.
-2. Service Discovery using Netflix Eureka
-3. Api gateway
+2. Service Discovery using Netflix Eureka.
+3. Api gateway.
+4. Circuit breaker when inventory service is down.
 ```
