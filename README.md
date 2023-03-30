@@ -31,6 +31,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 - order-service : order products
 - inventory-service : for product management
 - discovery-service : maintaining server registry
+- notification-service : order placed notifications
 - api-gateway
 ```
 
