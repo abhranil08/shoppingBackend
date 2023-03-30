@@ -8,6 +8,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 - [Microservices]
 - [MongoDB] 
 - [MySQL]
+- [Apache Kafka]
 ```
 
 # Clone and Use 📋
