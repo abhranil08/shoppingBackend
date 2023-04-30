@@ -58,4 +58,6 @@ Full working backend microservices for a shopping cart - currently in developmen
 - [x] API Gateway
 - [ ] Authentications in API Gateway
 - [ ] Fault tolerancy for Order Service - Circuit Breaker
+- [ ] Verify if the other services remain functional when the Discovery Service is unavailable
+- [ ] Verify if multiple instances of the same service are discovered by Discovery Service
 
