@@ -11,7 +11,7 @@ Full working backend microservices for a shopping cart - currently in developmen
 - [Apache Kafka]
 ```
 # Architecture diagram
-
+![Design](https://user-images.githubusercontent.com/17013083/235351571-f5911602-d336-45df-81d4-cc802a5d80e9.png)
 
 # Clone and Use 📋
 
