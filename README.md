@@ -10,6 +10,8 @@ Full working backend microservices for a shopping cart - currently in developmen
 - [MySQL]
 - [Apache Kafka]
 ```
+# Architecture diagram
+
 
 # Clone and Use 📋
 
