@@ -1,6 +1,8 @@
 package com.shopping.productservice.controller;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,6 +23,7 @@ import com.shopping.productservice.service.ProductService;
 public class ProductController {
 
     private final ProductService productservice;
+    Logger log = LoggerFactory.getLogger(ProductController.class);
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
@@ -32,13 +35,12 @@ public class ProductController {
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getAllProducts(){
-         System.out.println("hii!");
-        
-        return productservice.getAllProducts();
-    }
+        long startTime = System.currentTimeMillis();
+        List<ProductResponse> allProducts = productservice.getAllProducts();
+        long endTime = System.currentTimeMillis();
 
-
-
-
-    
+        log.info("Time taken to get products : " + (endTime - startTime));
+        log.info("Product data size : " + allProducts.size() + "ms.");
+        return allProducts;
+    } 
 }
