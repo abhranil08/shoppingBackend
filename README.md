@@ -9,6 +9,8 @@ Full working backend microservices for a shopping cart - currently in developmen
 - [MongoDB] 
 - [MySQL]
 - [Apache Kafka]
+- [Prometheus]
+- [Grafana]
 ```
 # Architecture diagram
 ![Design](https://user-images.githubusercontent.com/17013083/235351571-f5911602-d336-45df-81d4-cc802a5d80e9.png)
@@ -44,3 +46,16 @@ Full working backend microservices for a shopping cart - currently in developmen
 3. Api gateway.
 4. Circuit breaker when inventory service is down.
 ```
+
+# Things to DO :
+- [x] Order Service, Product Service
+- [x] Inventory Service for managing products
+- [x] Order Service communicating with inventory service, and then placing order successfully
+- [x] Service for discovering services
+- [x] Notification Service for notifying when order placed
+- [ ] Use Kafka in Notification Service for async communications
+- [ ] Onboard to Promethus and Grafana for monitoring
+- [x] API Gateway
+- [ ] Authentications in API Gateway
+- [ ] Fault tolerancy for Order Service - Circuit Breaker
+
